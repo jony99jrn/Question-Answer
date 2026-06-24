@@ -7,7 +7,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     transition: background 0.5s ease;
-    overflow-x: hidden; /* বাটন বড় হলে যেন স্ক্রোল না আসে */
+    overflow-x: hidden;
 }
 
 .container { 
@@ -29,7 +29,7 @@ body {
     justify-content: center; 
     align-items: center; 
     gap: 15px; 
-    flex-wrap: wrap; /* বাটন বড় হলে নিচে নেমে আসবে কিন্তু সেন্টারে থাকবে */
+    flex-wrap: wrap;
     width: 100%;
 }
 
