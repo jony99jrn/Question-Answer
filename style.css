@@ -67,6 +67,9 @@ footer {
     bottom: 10px;
     width: 100%;
     text-align: center;
-    font-size: 14px;
-    color: #7f8c8d;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
