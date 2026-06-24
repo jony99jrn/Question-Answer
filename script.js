@@ -11,12 +11,8 @@ function noClick() {
     yesSize += 15;
     const yesBtn = document.getElementById('yesBtn');
     const noBtn = document.getElementById('noBtn');
-    
-    // 'হ্যাঁ' বাটন বড় করা
     yesBtn.style.fontSize = yesSize + 'px';
     yesBtn.style.padding = (yesSize/2) + 'px ' + (yesSize + 20) + 'px';
-    
-    // মেসেজ লিস্ট শেষ হলে আবার প্রথম থেকে শুরু হবে
     msgIndex = (msgIndex + 1) % messages.length;
     noBtn.innerText = messages[msgIndex];
 }
